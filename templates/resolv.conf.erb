@@ -1,0 +1,5 @@
+### File managed by puppet ###
+<% if !searchpath.empty? %>search <%= searchpath.join(" ") %>
+<% end -%>
+<% nameservers.each do |ns| %>nameserver <%= ns %>
+<% end -%>

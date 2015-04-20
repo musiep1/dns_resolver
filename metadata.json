@@ -1,0 +1,14 @@
+{
+  "name": "lfgmrg-dns_resolver",
+  "version": "0.1.0",
+  "author": "lfgmrg",
+  "summary": "dns_resolver",
+  "license": "Apache 2.0",
+  "source": "git",
+  "project_page": "git",
+  "issues_url": "git",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
